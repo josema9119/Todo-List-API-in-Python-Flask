@@ -27,8 +27,7 @@ def delete_todo(position):
     print("This is the position to delete: ", position)
     return 'something'
     todos.pop(position)
-    json_text = jsonify(todos)
-    return json_text
+    return jsonify(todos)
     
 
 
